@@ -39,6 +39,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeLabel(_ sender: UIButton) {
+        label.text="Olá Universo"
     }
 
 }
