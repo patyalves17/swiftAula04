@@ -26,5 +26,9 @@ class ThirdViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
    
+    @IBAction func back(_ sender: Any) {
+        //dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
+    }
 
 }
