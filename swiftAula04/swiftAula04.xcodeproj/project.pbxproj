@@ -13,6 +13,10 @@
 		AC3B341B1F4E395800713669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3B341A1F4E395800713669 /* Assets.xcassets */; };
 		AC3B341E1F4E395800713669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3B341C1F4E395800713669 /* LaunchScreen.storyboard */; };
 		AC3B34261F4E553100713669 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B34251F4E553100713669 /* ThirdViewController.swift */; };
+		AC3B34281F4E612F00713669 /* TabNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3B34271F4E612F00713669 /* TabNavigation.storyboard */; };
+		AC3B342A1F4E649A00713669 /* CianViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B34291F4E649A00713669 /* CianViewViewController.swift */; };
+		AC3B342D1F4E652F00713669 /* SeilaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B342B1F4E652F00713669 /* SeilaViewController.swift */; };
+		AC3B342E1F4E652F00713669 /* SeilaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3B342C1F4E652F00713669 /* SeilaViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AC3B341D1F4E395800713669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3B341F1F4E395800713669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3B34251F4E553100713669 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		AC3B34271F4E612F00713669 /* TabNavigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TabNavigation.storyboard; path = ../TabNavigation.storyboard; sourceTree = "<group>"; };
+		AC3B34291F4E649A00713669 /* CianViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CianViewViewController.swift; sourceTree = "<group>"; };
+		AC3B342B1F4E652F00713669 /* SeilaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeilaViewController.swift; sourceTree = "<group>"; };
+		AC3B342C1F4E652F00713669 /* SeilaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeilaViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		AC3B34121F4E395800713669 /* swiftAula04 */ = {
 			isa = PBXGroup;
 			children = (
+				AC3B34271F4E612F00713669 /* TabNavigation.storyboard */,
+				AC3B342B1F4E652F00713669 /* SeilaViewController.swift */,
+				AC3B342C1F4E652F00713669 /* SeilaViewController.xib */,
+				AC3B34291F4E649A00713669 /* CianViewViewController.swift */,
 				AC3B34131F4E395800713669 /* AppDelegate.swift */,
 				AC3B34151F4E395800713669 /* ViewController.swift */,
 				AC3B34171F4E395800713669 /* Main.storyboard */,
@@ -128,6 +140,8 @@
 			files = (
 				AC3B341E1F4E395800713669 /* LaunchScreen.storyboard in Resources */,
 				AC3B341B1F4E395800713669 /* Assets.xcassets in Resources */,
+				AC3B34281F4E612F00713669 /* TabNavigation.storyboard in Resources */,
+				AC3B342E1F4E652F00713669 /* SeilaViewController.xib in Resources */,
 				AC3B34191F4E395800713669 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3B342A1F4E649A00713669 /* CianViewViewController.swift in Sources */,
 				AC3B34161F4E395800713669 /* ViewController.swift in Sources */,
 				AC3B34261F4E553100713669 /* ThirdViewController.swift in Sources */,
+				AC3B342D1F4E652F00713669 /* SeilaViewController.swift in Sources */,
 				AC3B34141F4E395800713669 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
