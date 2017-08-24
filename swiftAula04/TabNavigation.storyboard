@@ -40,9 +40,6 @@
                         <color key="backgroundColor" red="0.69581523759999997" green="1" blue="0.95348488080000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="mNf-cB-Ged"/>
-                    <connections>
-                        <outlet property="shoNewSreen" destination="mv3-5b-Hgj" id="KlO-p0-2pi"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cSh-al-leh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
