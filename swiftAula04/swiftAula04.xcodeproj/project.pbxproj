@@ -12,6 +12,7 @@
 		AC3B34191F4E395800713669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3B34171F4E395800713669 /* Main.storyboard */; };
 		AC3B341B1F4E395800713669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3B341A1F4E395800713669 /* Assets.xcassets */; };
 		AC3B341E1F4E395800713669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3B341C1F4E395800713669 /* LaunchScreen.storyboard */; };
+		AC3B34261F4E553100713669 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B34251F4E553100713669 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC3B341A1F4E395800713669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3B341D1F4E395800713669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3B341F1F4E395800713669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3B34251F4E553100713669 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AC3B34131F4E395800713669 /* AppDelegate.swift */,
 				AC3B34151F4E395800713669 /* ViewController.swift */,
 				AC3B34171F4E395800713669 /* Main.storyboard */,
+				AC3B34251F4E553100713669 /* ThirdViewController.swift */,
 				AC3B341A1F4E395800713669 /* Assets.xcassets */,
 				AC3B341C1F4E395800713669 /* LaunchScreen.storyboard */,
 				AC3B341F1F4E395800713669 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3B34161F4E395800713669 /* ViewController.swift in Sources */,
+				AC3B34261F4E553100713669 /* ThirdViewController.swift in Sources */,
 				AC3B34141F4E395800713669 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

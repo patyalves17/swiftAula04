@@ -36,8 +36,16 @@
                                     <action selector="changeLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3g3-Mi-3bK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKw-2o-7th">
+                                <rect key="frame" x="160" y="519" width="160" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Próxima Tela"/>
+                                <connections>
+                                    <segue destination="KDh-WA-738" kind="show" id="Eu3-bk-KPg"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.69581523757486341" green="1" blue="0.95348488082265892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="grd-6A-2nf" id="uQ0-xN-xCr"/>
@@ -46,6 +54,77 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-99.375" y="121.47887323943662"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bdP-bV-zcB">
+            <objects>
+                <viewController id="KDh-WA-738" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WPn-dA-346"/>
+                        <viewControllerLayoutGuide type="bottom" id="ARx-zd-GNH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5G0-A3-fWu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Segunda tela" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hai-3K-CVf">
+                                <rect key="frame" x="16" y="65" width="288" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8M-d0-UPF">
+                                <rect key="frame" x="154" y="518" width="160" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Terceira Tela"/>
+                                <connections>
+                                    <segue destination="qVb-TU-l9j" kind="show" id="2eu-2a-f6l"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.58640604082594694" green="0.81543199426009605" blue="0.82201262949999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ak2-FR-e7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="536.25" y="120.4225352112676"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="yjg-3b-sHU">
+            <objects>
+                <viewController id="qVb-TU-l9j" customClass="ThirdViewController" customModule="swiftAula04" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Hy-jD-qQ4"/>
+                        <viewControllerLayoutGuide type="bottom" id="K1R-K3-n8g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eoO-dl-JX5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terceira tela" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSA-en-Y6H">
+                                <rect key="frame" x="25" y="40" width="279" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jp-jV-cUm">
+                                <rect key="frame" x="16" y="518" width="85" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Voltar"/>
+                                <connections>
+                                    <segue destination="Hmy-lW-ohc" kind="unwind" unwindAction="unwindWithSegue:" id="ZkZ-7a-b0S"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.61778808019999998" green="0.76003244349999999" blue="0.82201262949999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PjI-0c-0Hm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Hmy-lW-ohc" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1211.25" y="120.4225352112676"/>
         </scene>
     </scenes>
 </document>
